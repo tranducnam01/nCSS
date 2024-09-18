@@ -1,0 +1,224 @@
+using System;
+using System.Net.Http.Headers;
+namespace banhang
+{
+    class hanghoa
+    {
+        protected string tensp;
+        protected float gia;
+        protected string mota;
+        protected int soluong;
+        public string gettensp() { return tensp; }
+        public float getgia() { return gia; }   
+        public int getsoluong()
+        {
+            return soluong;
+        }
+        public hanghoa(string tensp,float gia,string mota,int soluong)
+        {
+            this.tensp = tensp;
+            this.gia = gia;
+            this.mota = mota;
+            this.soluong = soluong;
+        }
+        public hanghoa()
+        {
+            this.tensp = "";
+            this.gia = 0;
+            this.mota = " ";
+            this.soluong = 0;
+        }
+        public virtual void nhap()
+        {
+            Console.WriteLine("moi nhap thong tin ten san pham: ");
+            tensp = Console.ReadLine();
+            Console.WriteLine("moi nhap gia san pham: ");
+            gia = float.Parse(Console.ReadLine());
+            Console.WriteLine("moi nhap thong tin mo ta san pham: ");
+            mota = Console.ReadLine();
+            Console.WriteLine("moi nhap so luong san:");
+            soluong = int.Parse(Console.ReadLine());
+        }
+        public virtual void hienthi()
+        {
+            Console.Write("\nten san pham:" + tensp);
+            Console.Write("\tgia :" + this.gia);
+            Console.Write("\tmo ta: " + this.mota);
+            Console.Write("\tso luong san pham: " + this.soluong);
+        }
+    }
+    class dientu : hanghoa
+    {
+        private int baohanh;
+        public dientu(string tensp, float gia, string mota, int soluong, int baohanh) : base (tensp, gia, mota, soluong)
+        {
+            this.baohanh = baohanh;
+        }
+        public dientu()
+        {
+            this.baohanh = 0;
+        }
+        public override void nhap()
+        {
+            base.nhap();
+            Console.WriteLine("nhap thoi gian bao hanh(thang): ");
+            baohanh = int.Parse(Console.ReadLine());
+        }
+        public override void hienthi()
+        {
+            base.hienthi();
+            Console.WriteLine("\tbao hanh (thang): " + this.baohanh);
+        }
+    }
+    class quanao : hanghoa
+    {
+        public int size;
+        public string color;
+        public quanao(int size, string color, string tensp, float gia, string mota, int soluong) : base(tensp, gia, mota, soluong)
+        {
+            this.size = size;
+            this.color = color;
+        }
+        public quanao()
+        {
+            this.color = " ";
+            this.size = 0;
+        }
+        public override void nhap()
+        {
+            base.nhap();
+            Console.WriteLine("nhap size: ");
+            size = int.Parse(Console.ReadLine());
+            Console.WriteLine("nhap color: ");
+            color = Console.ReadLine();
+
+        }
+        public override void hienthi()
+         { 
+            base.hienthi();
+            Console.WriteLine("\tsize: " + this.size);
+            Console.WriteLine("\tcolor: " +this. color);
+        }
+    }
+    class thucpham : hanghoa
+    {
+        public int ngay;
+        public int thang;
+        public int nam;
+        public thucpham(int ngay, int thang, int nam, string tensp, float gia, string mota, int soluong) : base(tensp, gia, mota, soluong)
+        {
+            this.ngay = ngay;
+            this.thang = thang;
+            this.nam = nam;
+        }
+        public thucpham()
+        {
+            this.ngay = 0;
+            this.thang = 0;
+            this.nam = 0;
+        }
+        public override void nhap()
+        {
+            base.nhap();
+            Console.WriteLine("nhap ngay het han ");
+            ngay = int.Parse(Console.ReadLine());
+            thang = int.Parse(Console.ReadLine());
+            nam = int.Parse(Console.ReadLine());
+
+        }
+        public override void hienthi()
+        {
+            base.hienthi();
+            Console.WriteLine("ngay het han:  " + this.ngay + "/" + this.thang + "/" + this.nam);
+        }
+    }
+    class giohang
+    {
+        private List<hanghoa> hh = new List<hanghoa>();
+        public void Addhanghoa(hanghoa h)
+        {
+            hh.Add(h);
+            Console.WriteLine($"{h.gettensp()} da dc them vao gia hang");
+        }
+        public void Removehanghoa(hanghoa h)
+        {
+            hh.Remove(h);
+            Console.WriteLine($"{h.gettensp()} da xoa khoi gio hang");
+        }
+        public void hienthi()
+        {
+            Console.WriteLine("danh sach san pham trong gio hang");
+            foreach (hanghoa h in hh)
+            {
+                h.hienthi();
+           
+             }
+        }
+      
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n, x, y, z;
+            Console.WriteLine("moi nhap so luong san pham muon mua: ");
+            n = int.Parse(Console.ReadLine());
+            do
+            {
+                Console.WriteLine("moi nhap so luong san pham dien tu : ");
+                x = int.Parse(Console.ReadLine());
+                Console.WriteLine("moi nhap so luong san pham quan ao: ");
+                y = int.Parse(Console.ReadLine());
+                Console.WriteLine("moi nhap so luong san pham thuc pham: ");
+                z = int.Parse(Console.ReadLine());
+            } while (x + y + z != n);
+            dientu[] dt = new dientu[x];
+            quanao[] qa = new quanao[y];
+            thucpham[] tp = new thucpham[z];
+
+          
+
+            for (int i = 0; i < x; i++)
+            {
+                Console.WriteLine("nhap thong tin dien tu: ");
+                dt[i] = new dientu();
+                dt[i].nhap();
+            }
+            for (int i = 0; i < y; i++)
+            {
+                Console.WriteLine("nhap thong tin quan ao: ");
+                qa[i] = new quanao();
+                qa[i].nhap();
+            }
+            for (int i = 0; i < z; i++)
+            {
+                Console.WriteLine("nhap thong tin thuc pham: ");
+                tp[i] = new thucpham();
+                tp[i].nhap();
+            }
+            Console.WriteLine("danh sach san pham");
+            float tongx = 0;
+            for (int i = 0; i < x; i++)
+            {
+                dt[i].hienthi();
+                tongx += x * dt[i].getgia() / x * dt[i].getsoluong();
+  
+            }
+            float tongy = 0;
+            for (int i = 0; i < y; i++)
+            {  
+                qa[i].hienthi();
+                tongy += y * qa[i].getgia() / x * qa[i].getsoluong();
+            }
+            float tongz = 0;
+            for (int i = 0; i < z; i++)
+            {
+                tp[i].hienthi();
+                tongz += z * tp[i].getgia() / y * tp[i].getsoluong();
+            }
+            float tong = tongx + tongy + tongz;
+            Console.WriteLine("tong tien phai tra: " +tong);
+        }
+    }
+}
+
