@@ -1,0 +1,93 @@
+using System;
+using System.Collections.Generic;
+
+namespace bailam
+{
+    // Abstract class for vehicles
+    abstract class phuongTien
+    {
+        public string tenPhuongTien;
+        public string loaiNhienLieu;
+
+        // Abstract method for vehicle movement
+        public abstract void diChuyen();
+    }
+
+    // Interface for additional information
+    interface iThongTinThem
+    {
+        double TocDoToiDa(); // Max speed
+        double MucTieuNhienLieu(); // Fuel consumption
+    }
+
+    // Car class inheriting from phuongTien and implementing iThongTinThem
+    class xeHoi : phuongTien, iThongTinThem
+    {
+        public xeHoi(string tenPhuongTien, string loaiNhienLieu)
+        {
+            this.tenPhuongTien = tenPhuongTien; // Correct assignment
+            this.loaiNhienLieu = loaiNhienLieu; // Correct assignment
+        }
+
+        public override void diChuyen()
+        {
+            Console.WriteLine($"Di chuyển bằng động cơ nhiên liệu {loaiNhienLieu}.");
+        }
+
+        public double TocDoToiDa()
+        {
+            return 200.0;
+        }
+
+        public double MucTieuNhienLieu()
+        {
+            return 8.5; // Example value
+        }
+    }
+
+    // Bicycle class inheriting from phuongTien
+    class xeDap : phuongTien
+    {
+        public xeDap(string tenPhuongTien)
+        {
+            this.tenPhuongTien = tenPhuongTien;
+            this.loaiNhienLieu = "Không sử dụng nhiên liệu"; // No fuel for bicycles
+        }
+
+        public override void diChuyen()
+        {
+            Console.WriteLine("Di chuyển không cần nhiên liệu.");
+        }
+
+        public double TocDoToiDa()
+        {
+            return 25.0;
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<phuongTien> ds = new List<phuongTien>();
+            ds.Add(new xeHoi("Xe Hơi", "Xăng")); // Corrected syntax
+            ds.Add(new xeDap("Xe Đạp"));
+
+            foreach (phuongTien t in ds)
+            {
+                t.diChuyen(); // Corrected to use variable `t`
+
+                if (t is iThongTinThem thongTinThem)
+                {
+                    Console.WriteLine($"Tốc độ tối đa: {thongTinThem.TocDoToiDa()} km/h");
+
+                    if (t is xeHoi)
+                    {
+                        Console.WriteLine($"Mức tiêu thụ nhiên liệu: {thongTinThem.MucTieuNhienLieu()} lít/100km");
+                    }
+                }
+                Console.WriteLine(); // Empty line for better readability
+            }
+        }
+    }
+}
