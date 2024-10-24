@@ -1,0 +1,16 @@
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\bin\Debug\net8.0-windows\quanlyssp.exe
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\bin\Debug\net8.0-windows\quanlyssp.deps.json
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\bin\Debug\net8.0-windows\quanlyssp.runtimeconfig.json
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\bin\Debug\net8.0-windows\quanlyssp.dll
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\bin\Debug\net8.0-windows\quanlyssp.pdb
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\obj\Debug\net8.0-windows\quanlyssp.Form1.resources
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\obj\Debug\net8.0-windows\quanlyssp.csproj.GenerateResource.cache
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\obj\Debug\net8.0-windows\quanlyssp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\obj\Debug\net8.0-windows\quanlyssp.AssemblyInfoInputs.cache
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\obj\Debug\net8.0-windows\quanlyssp.AssemblyInfo.cs
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\obj\Debug\net8.0-windows\quanlyssp.csproj.CoreCompileInputs.cache
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\obj\Debug\net8.0-windows\quanlyssp.dll
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\obj\Debug\net8.0-windows\refint\quanlyssp.dll
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\obj\Debug\net8.0-windows\quanlyssp.pdb
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\obj\Debug\net8.0-windows\quanlyssp.genruntimeconfig.cache
+C:\Users\LAPTOP\source\repos\quanlyssp\quanlyssp\obj\Debug\net8.0-windows\ref\quanlyssp.dll
