@@ -1,0 +1,16 @@
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\obj\Debug\net8.0-windows\quanlySinhVien.Form1.resources
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\obj\Debug\net8.0-windows\quanlySinhVien.csproj.GenerateResource.cache
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\obj\Debug\net8.0-windows\quanlySinhVien.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\obj\Debug\net8.0-windows\quanlySinhVien.AssemblyInfoInputs.cache
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\obj\Debug\net8.0-windows\quanlySinhVien.AssemblyInfo.cs
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\obj\Debug\net8.0-windows\quanlySinhVien.csproj.CoreCompileInputs.cache
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\bin\Debug\net8.0-windows\quanlySinhVien.exe
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\bin\Debug\net8.0-windows\quanlySinhVien.deps.json
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\bin\Debug\net8.0-windows\quanlySinhVien.runtimeconfig.json
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\bin\Debug\net8.0-windows\quanlySinhVien.dll
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\bin\Debug\net8.0-windows\quanlySinhVien.pdb
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\obj\Debug\net8.0-windows\quanlySinhVien.dll
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\obj\Debug\net8.0-windows\refint\quanlySinhVien.dll
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\obj\Debug\net8.0-windows\quanlySinhVien.pdb
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\obj\Debug\net8.0-windows\quanlySinhVien.genruntimeconfig.cache
+C:\Users\LAPTOP\source\repos\quanlySinhVien\quanlySinhVien\obj\Debug\net8.0-windows\ref\quanlySinhVien.dll
