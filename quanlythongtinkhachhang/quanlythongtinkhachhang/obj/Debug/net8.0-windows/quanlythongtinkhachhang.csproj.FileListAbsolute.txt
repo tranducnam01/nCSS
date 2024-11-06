@@ -1,0 +1,17 @@
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\obj\Debug\net8.0-windows\quanlythongtinkhachhang.FormQLKH.resources
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\obj\Debug\net8.0-windows\quanlythongtinkhachhang.csproj.GenerateResource.cache
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\obj\Debug\net8.0-windows\quanlythongtinkhachhang.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\obj\Debug\net8.0-windows\quanlythongtinkhachhang.AssemblyInfoInputs.cache
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\obj\Debug\net8.0-windows\quanlythongtinkhachhang.AssemblyInfo.cs
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\obj\Debug\net8.0-windows\quanlythongtinkhachhang.csproj.CoreCompileInputs.cache
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\bin\Debug\net8.0-windows\quanlythongtinkhachhang.exe
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\bin\Debug\net8.0-windows\quanlythongtinkhachhang.deps.json
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\bin\Debug\net8.0-windows\quanlythongtinkhachhang.runtimeconfig.json
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\bin\Debug\net8.0-windows\quanlythongtinkhachhang.dll
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\bin\Debug\net8.0-windows\quanlythongtinkhachhang.pdb
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\obj\Debug\net8.0-windows\quanlythongtinkhachhang.dll
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\obj\Debug\net8.0-windows\refint\quanlythongtinkhachhang.dll
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\obj\Debug\net8.0-windows\quanlythongtinkhachhang.pdb
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\obj\Debug\net8.0-windows\quanlythongtinkhachhang.genruntimeconfig.cache
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\obj\Debug\net8.0-windows\ref\quanlythongtinkhachhang.dll
+C:\Users\LAPTOP\source\repos\quanlythongtinkhachhang\quanlythongtinkhachhang\obj\Debug\net8.0-windows\quanlythongtinkhachhang.FormDichVu.resources
